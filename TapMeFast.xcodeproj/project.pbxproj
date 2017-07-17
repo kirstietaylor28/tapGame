@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C37E6C641F18262E00AE0C57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37E6C631F18262E00AE0C57 /* AppDelegate.swift */; };
+		C37E6C661F18262E00AE0C57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37E6C651F18262E00AE0C57 /* ViewController.swift */; };
+		C37E6C691F18262E00AE0C57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C37E6C671F18262E00AE0C57 /* Main.storyboard */; };
+		C37E6C6B1F18262E00AE0C57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C37E6C6A1F18262E00AE0C57 /* Assets.xcassets */; };
+		C37E6C6E1F18262E00AE0C57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C37E6C6C1F18262E00AE0C57 /* LaunchScreen.storyboard */; };
+		C37E6C761F18369200AE0C57 /* ObelixProB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C37E6C751F18369200AE0C57 /* ObelixProB.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C37E6C601F18262E00AE0C57 /* TapMeFast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapMeFast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C37E6C631F18262E00AE0C57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C37E6C651F18262E00AE0C57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C37E6C681F18262E00AE0C57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C37E6C6A1F18262E00AE0C57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C37E6C6D1F18262E00AE0C57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C37E6C6F1F18262E00AE0C57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C37E6C751F18369200AE0C57 /* ObelixProB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ObelixProB.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C37E6C5D1F18262E00AE0C57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C37E6C571F18262E00AE0C57 = {
+			isa = PBXGroup;
+			children = (
+				C37E6C621F18262E00AE0C57 /* TapMeFast */,
+				C37E6C611F18262E00AE0C57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C37E6C611F18262E00AE0C57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C37E6C601F18262E00AE0C57 /* TapMeFast.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C37E6C621F18262E00AE0C57 /* TapMeFast */ = {
+			isa = PBXGroup;
+			children = (
+				C37E6C631F18262E00AE0C57 /* AppDelegate.swift */,
+				C37E6C651F18262E00AE0C57 /* ViewController.swift */,
+				C37E6C671F18262E00AE0C57 /* Main.storyboard */,
+				C37E6C6A1F18262E00AE0C57 /* Assets.xcassets */,
+				C37E6C6C1F18262E00AE0C57 /* LaunchScreen.storyboard */,
+				C37E6C6F1F18262E00AE0C57 /* Info.plist */,
+				C37E6C751F18369200AE0C57 /* ObelixProB.ttf */,
+			);
+			path = TapMeFast;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C37E6C5F1F18262E00AE0C57 /* TapMeFast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C37E6C721F18262E00AE0C57 /* Build configuration list for PBXNativeTarget "TapMeFast" */;
+			buildPhases = (
+				C37E6C5C1F18262E00AE0C57 /* Sources */,
+				C37E6C5D1F18262E00AE0C57 /* Frameworks */,
+				C37E6C5E1F18262E00AE0C57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapMeFast;
+			productName = TapMeFast;
+			productReference = C37E6C601F18262E00AE0C57 /* TapMeFast.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C37E6C581F18262E00AE0C57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Kirstie;
+				TargetAttributes = {
+					C37E6C5F1F18262E00AE0C57 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C37E6C5B1F18262E00AE0C57 /* Build configuration list for PBXProject "TapMeFast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C37E6C571F18262E00AE0C57;
+			productRefGroup = C37E6C611F18262E00AE0C57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C37E6C5F1F18262E00AE0C57 /* TapMeFast */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C37E6C5E1F18262E00AE0C57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37E6C761F18369200AE0C57 /* ObelixProB.ttf in Resources */,
+				C37E6C6E1F18262E00AE0C57 /* LaunchScreen.storyboard in Resources */,
+				C37E6C6B1F18262E00AE0C57 /* Assets.xcassets in Resources */,
+				C37E6C691F18262E00AE0C57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C37E6C5C1F18262E00AE0C57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37E6C661F18262E00AE0C57 /* ViewController.swift in Sources */,
+				C37E6C641F18262E00AE0C57 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C37E6C671F18262E00AE0C57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C37E6C681F18262E00AE0C57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C37E6C6C1F18262E00AE0C57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C37E6C6D1F18262E00AE0C57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C37E6C701F18262E00AE0C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C37E6C711F18262E00AE0C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C37E6C731F18262E00AE0C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TapMeFast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kirstie.TapMeFast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C37E6C741F18262E00AE0C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TapMeFast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kirstie.TapMeFast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C37E6C5B1F18262E00AE0C57 /* Build configuration list for PBXProject "TapMeFast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C37E6C701F18262E00AE0C57 /* Debug */,
+				C37E6C711F18262E00AE0C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C37E6C721F18262E00AE0C57 /* Build configuration list for PBXNativeTarget "TapMeFast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C37E6C731F18262E00AE0C57 /* Debug */,
+				C37E6C741F18262E00AE0C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C37E6C581F18262E00AE0C57 /* Project object */;
+}
